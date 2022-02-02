@@ -7,8 +7,7 @@
                 <a class="btn btn-secondary" href="{% url 'post_edit' pk=post.pk %}">
                     {% include './icons/pencil-fill.svg' %}
                 </a>
-                <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}">
-                    <span class="glyphicon glyphicon-remove"></span>
+                <a class="btn btn-secondary" href="{% url 'post_remove' pk=post.pk %}">remove<span class="btn btn" ></span>                
                 </a>
             {% endif %}
         </aside>        
@@ -41,3 +40,4 @@
 {% empty %}
     <p>No comments here yet :(</p>
 {% endfor %}
+{% endblock %}
