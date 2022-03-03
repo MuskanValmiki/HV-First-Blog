@@ -1,4 +1,5 @@
-#This is our bolg .
+#This is our bolg.
+
 #In that we use just django and class object methods.
 
 ## For creating the migration we run 
