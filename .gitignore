@@ -7,6 +7,8 @@ __pycache__
 .env
 myvenv/
 venv/
+*.sqlite3
+.idea/
 
 # Database
 db.sqlite3
@@ -30,3 +32,11 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 *.code-workspace
+
+# Editor directories and files
+.idea
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
